@@ -1,28 +1,27 @@
-
 @font-face {
-    font-family: 'Courier Prime', monospace;
-    src: url("https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap")
+  font-family: "Courier Prime", monospace;
+  src: url("https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap");
 }
 
 body {
   margin: 0;
-  font-family: 'Courier Prime', Courier, Arial, Helvetica, sans-serif;
+  font-family: "Courier Prime", Courier, Arial, Helvetica, sans-serif;
   background-color: black;
 }
 
 h1 {
-    margin-top: 75px;
-    color:rgb(228, 228, 228);
-    text-align: center;
-    font-weight: lighter;
-    font-size: 26px;
+  margin-top: 75px;
+  color: rgb(228, 228, 228);
+  text-align: center;
+  font-weight: lighter;
+  font-size: 26px;
 }
 
 h2 {
-    color: rgb(228, 228, 228);
-    text-align: center;
-    font-size: 15px;
-    font-weight: lighter;
+  color: rgb(228, 228, 228);
+  text-align: center;
+  font-size: 15px;
+  font-weight: lighter;
 }
 
 p {
@@ -32,17 +31,17 @@ p {
 }
 
 .button1 {
-    position: absolute;
-    top: 50px;
-    right: 50px;
-    font-family: 'Courier Prime';
-    background-color: black;
-    color: white;  
-    border: 2px solid white;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  font-family: "Courier Prime";
+  background-color: black;
+  color: white;
+  border: 2px solid white;
 }
 
 .button1:hover {
-    border-color: rgb(197, 197, 197)
+  border-color: rgb(197, 197, 197);
 }
 
 .topnav {
@@ -54,7 +53,7 @@ p {
 }
 
 .topnav a {
-    color:rgb(228, 228, 228);
+  color: rgb(228, 228, 228);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -62,12 +61,12 @@ p {
 }
 
 .topnav a:hover {
-    color:rgb(228, 228, 228);
+  color: rgb(228, 228, 228);
   font-weight: bolder;
 }
 
 .topnav a.active {
-    color:rgb(240, 240, 240);
+  color: rgb(240, 240, 240);
   font-weight: bolder;
 }
 
@@ -90,32 +89,31 @@ ul.leaders li:before {
   float: left;
   width: 0;
   white-space: nowrap;
-  content:
-  "........................................"
-  "........................................"
-  "........................................"
-  "........................................"
+  content: "........................................"
+    "........................................"
+    "........................................"
+    "........................................";
 }
 
 ul.leaders span:first-child {
-    padding-right: 0.33em;
-    background: black;
-  }
+  padding-right: 0.33em;
+  background: black;
+}
 
-  ul.leaders span + span {
-    float:right;
-    padding-left: 0.33em;
-    background: black;
-  }
+ul.leaders span + span {
+  float: right;
+  padding-left: 0.33em;
+  background: black;
+}
 
 .live_text {
-  color: #FF9BF5;
+  color: #ff9bf5;
 }
 
 a:link {
-  color:rgb(228, 228, 228);
+  color: rgb(228, 228, 228);
 }
 
 a:visited {
-  color:rgb(228, 228, 228);
+  color: rgb(228, 228, 228);
 }
