@@ -24,6 +24,12 @@ h2 {
     font-size: 15px;
 }
 
+p {
+  color: rgb(228, 228, 228);
+  text-align: center;
+  font-size: 14px;
+}
+
 .button1 {
     position: absolute;
     top: 50px;
