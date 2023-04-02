@@ -1,0 +1,8 @@
+<div class="topnav">
+  <a href="{{ url_for('index') }}" {% if active_page == 'index' %}class="active"{% endif %}>Explore</a>
+  <a href="{{ url_for('community') }}" {% if active_page == 'community' %}class="active"{% endif %}>Community</a>
+  <a href="{{ url_for('profile') }}" {% if active_page == 'profile' %}class="active"{% endif %}>Profile</a>
+  <a href="{{ url_for('mint') }}" {% if active_page == 'mint' %}class="active"{% endif %}>Mint</a>
+  <a href="{{ url_for('venue') }}" {% if active_page == 'venue' %}class="active"{% endif %}>Venue</a>
+  <a href="{{ url_for('about') }}" {% if active_page == 'about' %}class="active"{% endif %}>About</a>
+</div>
