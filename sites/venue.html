@@ -1,31 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap"
-      rel="stylesheet"
-    />
-    <title>noiselike.art</title>
-  </head>
-
-  <body>
-    <h1>noiselike.art</h1>
-
-    <!--wallet connect button-->
-    <button class="button button1" type="button">connect wallet</button>
+{% include 'header.html' %}
 
     <!--navigation bar-->
     <div class="topnav">
-      <a href="index.html">Explore</a>
-      <a href="community.html">Community</a>
-      <a href="profile.html">Profile</a>
-      <a href="mint.html">Mint</a>
-      <a class="active" href="venue.html">Venue</a>
-      <a href="about.html">About</a>
+      <a href="{{ url_for('index') }}">Explore</a>
+      <a href="{{ url_for('community') }}">Community</a>
+      <a href="{{ url_for('profile') }}">Profile</a>
+      <a href="{{ url_for('mint') }}">Mint</a>
+      <a class="active" href="{{ url_for('venue') }}">Venue</a>
+      <a href="{{ url_for('about') }}">About</a>
     </div>
 
     <p>
@@ -59,7 +41,7 @@
       </ul>
     </div>
 
-    <img src="construction.gif" alt="under construction" class="oldgif">
+    <img src="{{ url_for('static', filename='construction.gif') }}" alt="under construction" class="oldgif">
 
   </body>
 </html>

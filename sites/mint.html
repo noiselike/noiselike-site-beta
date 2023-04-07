@@ -1,0 +1,14 @@
+{% include 'header.html' %}
+
+  <!--navigation bar-->
+  <div class="topnav">
+    <a href="{{ url_for('index') }}">Explore</a>
+    <a href="{{ url_for('community') }}">Community</a>
+    <a href="{{ url_for('profile') }}">Profile</a>
+    <a class="active" href="{{ url_for('mint') }}">Mint</a>
+    <a href="{{ url_for('venue') }}">Venue</a>
+    <a href="{{ url_for('about') }}">About</a>
+  </div>
+
+  <h2>this is the mint page</h2>
+</html>
