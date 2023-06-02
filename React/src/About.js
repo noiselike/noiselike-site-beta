@@ -1,33 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-export function Header() {
+// const About = () => {
+export function About() {
   return (
-    <div className="Header">
-
-      <head>
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="../assets/style.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap"
-          rel="stylesheet"
-        />
-        <title>noiselike.art</title>
-      </head>
-
-      <body>
-        <h1>noiselike.art</h1>
-
-      </body>
-    </div>
-  )
-}
-
-export function App() {
-  return (
-    <div className="App">
+    <div className="About">
 
       <h2>
         <strong>noiselike.art</strong> is a hub to bring together artists, musicians, producers, and fans to release and discover music. Through a cooperative framework, noiselike participants seek to fundamentally reimagine the relationship between artists and patrons, reduce traditional barriers of entry, and cut out parasitic middlemen.
@@ -42,4 +18,4 @@ export function App() {
   );
 }
 
-export default App;
+export default About;
