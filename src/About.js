@@ -6,7 +6,7 @@ export function About() {
   return (
     <div className="About">
       <p>
-        <span class="live_text">noiselike.art</span> is a hub to bring together artists, musicians, producers, and fans to release and discover music. Through a cooperative framework, noiselike participants seek to fundamentally reimagine the relationship between artists and patrons, reduce traditional barriers of entry, and cut out parasitic middlemen.
+        <span class="live_text">noiselike.art</span> is a hub for artists, musicians, producers, and fans to release and discover music. Through a cooperative framework, noiselike seeks to fundamentally reimagine the relationship between artists and patrons, reduce traditional barriers of entry, and cut out parasitic middlemen.
       </p>
 
       <div className="sectionHeader">
