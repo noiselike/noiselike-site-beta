@@ -2,9 +2,9 @@ import React from "react";
 
 export function Profile() {
   return (
-    <p>
+    <h2>
       This is the Profile page
-    </p>
+    </h2>
   );
 }
 

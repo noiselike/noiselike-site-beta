@@ -2,9 +2,9 @@ import React from "react";
 
 export function Mint() {
   return (
-    <p>
+    <h2>
       This is the Mint page
-    </p>
+    </h2>
   );
 }
 

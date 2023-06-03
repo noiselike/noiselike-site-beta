@@ -26,8 +26,20 @@ h2 {
 
 p {
   color: rgb(228, 228, 228);
+  text-align: left;
+  font-size: 18px;
+  text-justify: inter-word;
+  text-align: justify;
+  line-height: 1.5;
+  margin: 25px 300px 25px;
+}
+
+.sectionHeader {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
   text-align: center;
-  font-size: 14px;
+  text-transform: uppercase;
+  margin-top: 100px;
 }
 
 .button1 {
@@ -66,8 +78,11 @@ p {
 }
 
 .topnav a.active {
-  color: rgb(29, 248, 0);
+  color: rgb(255, 255, 255);
   font-weight: bolder;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 5px;
 }
 
 .setlist {

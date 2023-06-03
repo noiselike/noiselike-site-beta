@@ -4,18 +4,18 @@ import Construction from "./construction.gif";
 export function Venue() {
   return (
     <div>
-      <p>
+      <h2>
         Featured artists can be seen <span class="live_text">live</span> at the noiselike venue <strong>unit b</strong>.
         <br />Hang with the community at <a href="http://listening.bar" target="blank">listening.bar</a>.
-      </p>
+      </h2>
 
       <br />
       <br />
 
-      <p>
+      <h2>
         If you are interested in playing a set, drop a line
         <br />in the <span class="live_text">#live</span> channel on discord.
-      </p>
+      </h2>
 
       <div class="setlist">
         <h2>Upcoming</h2>
