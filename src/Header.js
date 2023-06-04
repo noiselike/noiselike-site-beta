@@ -18,7 +18,6 @@ export function Header() {
 
       <body>
         <h1>noiselike.art</h1>
-        <button class="button button1" type="button">sync</button>
       </body>
     </div>
   )

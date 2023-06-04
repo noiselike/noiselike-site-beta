@@ -2,8 +2,10 @@ import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import Navbar from './Navbar.js';
 import Header from './Header.js';
+import Sync from './Sync.js';
+import Navbar from './Navbar.js';
+
 import Explore from './Explore';
 import Community from './Community';
 import Profile from './Profile';
@@ -15,6 +17,7 @@ function App() {
   return (
     <Router>
       <Header />
+      <Sync />
       <Navbar />
       <Routes>
         <Route path="/" element={<Explore />} />
