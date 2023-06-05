@@ -1,18 +1,18 @@
 import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import ReactAudioPlayer from 'react-audio-player';
 
-import Header from './Header.js';
-import Sync from './Sync.js';
-import Navbar from './Navbar.js';
+import Header from './Header';
+import Sync from './Sync';
+import Navbar from './Navbar';
+import Player from './Player';
 
 import Explore from './Explore';
 import Community from './Community';
 import Profile from './Profile';
-import Mint from './Mint.js';
+import Mint from './Mint';
 import Venue from './Venue';
-import About from './About.js';
+import About from './About';
 
 function App() {
   return (
@@ -30,16 +30,8 @@ function App() {
           <Route path="/about" element={<About />} />
         </Routes>
       </Router>
-
-      <div className="centered-container">
-        <ReactAudioPlayer
-          src="https://ipfs.io/ipfs/QmcYJWtmvX8bxapTMkHBpnxRKDuqNUvsz5R7zuECHUd2yz?filename=ipfs_test_song.mp3"
-          autoPlay
-          controls
-        />
-      </div>
+      <Player />
     </div>
-
   );
 }
 

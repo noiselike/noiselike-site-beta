@@ -33,6 +33,7 @@ p {
   line-height: 1.5;
   margin-left: 200px;
   margin-right: 200px;
+  margin-bottom: 200px;
 
 }
 
@@ -148,4 +149,14 @@ a:visited {
   align-items: center;
   justify-content: center;
   height: 25vh;
+}
+
+.player {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f8f9fa;
+  padding: 0rem;
+  text-align: center;
 }

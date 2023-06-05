@@ -33,7 +33,7 @@ export function Venue() {
           </li>
         </ul>
       </div>
-
+      <p />
       <img src={Construction} alt="under construction" class="oldgif"/>
     </div>
   );
