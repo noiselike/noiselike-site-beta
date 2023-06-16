@@ -1,0 +1,137 @@
+@font-face {
+    font-family: "Courier Prime", monospace;
+    src: url("https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap");
+}
+
+.nav {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    font-family: "Courier Prime", Courier, Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+h1 {
+    margin-top: 75px;
+    color: rgb(228, 228, 228);
+    text-align: center;
+    font-weight: lighter;
+    font-size: 26px;
+}
+
+h2 {
+    color: rgb(228, 228, 228);
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+p {
+    color: rgb(228, 228, 228);
+    text-align: left;
+    font-size: 18px;
+    text-justify: inter-word;
+    text-align: justify;
+    line-height: 1.5;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+
+}
+
+.sectionHeader {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 150px;
+}
+
+.button1 {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    font-family: "Courier Prime";
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.button1:hover {
+    border-color: rgb(197, 197, 197);
+}
+
+.setlist {
+    margin-top: 100px;
+}
+
+ul.leaders {
+    margin: 0 auto;
+    line-height: 200%;
+    max-width: 30em;
+    padding: 0;
+    overflow-x: hidden;
+    list-style: none;
+    color: rgb(228, 228, 228);
+    font-size: 14px;
+}
+
+ul.leaders li:before {
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    content: "........................................"
+        "........................................"
+        "........................................"
+        "........................................";
+}
+
+ul.leaders span:first-child {
+    padding-right: 0.33em;
+    background: black;
+}
+
+ul.leaders span+span {
+    float: right;
+    padding-left: 0.33em;
+    background: black;
+}
+
+.live_text {
+    color: #ff9bf5;
+}
+
+a:link {
+    color: rgb(228, 228, 228);
+}
+
+a:visited {
+    color: rgb(228, 228, 228);
+}
+
+.oldgif {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.playerNormal {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    padding: 0rem;
+    text-align: center;
+}
+
+.playerWebamp {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
